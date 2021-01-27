@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    font-size: 15px;
+    flex-flow: column;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 73, 73);
+    background-color: rgb(231, 231, 231);
+}
+
+.tittle{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#maintittle{
+    margin-top: 75px;
+    font-weight: 200;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+
+#sectittle{
+    font-weight: 500;
+    padding-top: 1px;
+    margin-top: 1px;
+}
+
+#firstpara{
+    font-weight: 300;
+}
+
+/*cards*/
+#middle{
+    display: fleX;
+    flex-flow: column;
+}
+.cardsec{
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+}
+.cards{
+    background-color: white;
+    width: 24em;
+    height: 17em;
+    border-radius: 6px;
+    margin: 30px;
+    
+}
+
+.minipara{
+    padding-left: 30px;
+}
+.minitittle{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+img{
+    position: relative;
+    top: 15px;
+    left: 18em;
+}
+
+#first, #fourth{
+    align-self: center;
+}
+
+#first{
+    box-shadow: 0px -4.5px hsl(180, 62%, 55%);
+}   
+#secoend{
+    box-shadow: 0px -4.5px hsl(0, 78%, 62%);
+}
+#third{
+    box-shadow: 0px -4.5px   hsl(34, 97%, 64%);
+}
+#fourth{
+    box-shadow: 0px -4.5px hsl(212, 86%, 64%);
+}
+
+@media (max-width:1296px){
+    body{
+        flex-flow: column;
+    }
+    .cardsec{
+        flex-flow: column;
+    }
+}
